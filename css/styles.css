@@ -1,0 +1,179 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  background: #ffffff;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+/*==================== COMPONENTS ==============*/
+.menu-link:hover,
+.menu-list:focus {
+  color: #4d5ae5;
+}
+/*==================== /COMPONENTS ==============*/
+
+/* =============== HEADER ====================*/
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 0.86;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  color: #2e2f42;
+}
+.logo-web-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 0.86;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  color: #4d5ae5;
+}
+
+.menu-list {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 0.67;
+  letter-spacing: 0.02em;
+}
+.contact-mail,
+.contact-phone {
+  font-size: 16px;
+  line-height: 0.67;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* ============= /HEADER ====================*/
+
+/* ================ HERO =======================*/
+.hero {
+  background: #2e2f42;
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 0.93;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+.modal-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 0.86;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  /* color: #FFFFFF; */
+}
+/* ================ /HERO =======================*/
+
+/* =============== SECTION2 =====================*/
+
+.section-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 0.83;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+.section-description {
+  font-size: 16px;
+  line-height: 0.67;
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+/* ============= /SECTION2 =====================*/
+
+/* ============= SERVICES =====================*/
+.menu-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 0.9;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* ============= /SERVICES =====================*/
+
+/* ============= TEAM =====================*/
+.team {
+  background-color: #f4f4fd;
+}
+.team-name .portfolio-item {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 0.83;
+  letter-spacing: 0.02em;
+}
+.team-position .portfolio-item-dep {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* ============= /TEAM =====================*/
+
+/* ============= FOOTER =====================*/
+.footer {
+  background: #2e2f42;
+}
+.logo-web-text-footer {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 0.86;
+  display: flex;
+  letter-spacing: 0.03em;
+
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 0.67;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+/* ============= /FOOTER =====================*/
+/* ============= PORTFOLIO = indexTEAM ===========*/
+.button-all {
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  /* color: #FFFFFF; */
+}
+
+.buttons {
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  color: #4d5ae5;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 0.67;
+  letter-spacing: 0.02em;
+
+  color: #f4f4fd;
+}
+/* ============= /PORTFOLIO ===========*/
